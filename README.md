@@ -48,9 +48,9 @@ Note: to enable icons you also need to copy over the `_data` folder.
 Your `_config.yml` could for example look like this:
 
 ```yaml
-title: "Blog Title"
-author: "Blog Author"
-description: "My personal blog about ... something"
+title: "Blue Sabers"
+author: "Blue Sabers"
+description: "About the robotics team Blue Sabers!"
 permalink: /:title/
 lang: "en"
 excerpt_separator: "\n\n\n"
@@ -65,8 +65,8 @@ show_sidebar: false        # show a sidebar instead of the usual header
 # Menu
 
 navigation:                # accepts {file, title, url, icon, sidebaricon}
-  - {file: "index.html"}
-  - {file: "README.md"}
+  - {file: "index.html", title: "about"}
+  - {file: "README.md", title: "robot/attachment"}
 
 external:                  # shows a footer with social links - for available icons see fontawesome.com/icons
   - {title: Mail, icon: envelope, url: "mailto:niklasbuschmann@users.noreply.github.com"}
