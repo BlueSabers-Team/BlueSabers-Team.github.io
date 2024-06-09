@@ -65,8 +65,8 @@ show_sidebar: false        # show a sidebar instead of the usual header
 # Menu
 
 navigation:                # accepts {file, title, url, icon, sidebaricon}
-  - {file: "index.html", title: "about"}
-  - {file: "README.md", title: "robot/attachment"}
+  - {file: "index.html", title: "home"}
+  - {file: "README.md", title: "about"}
 
 external:                  # shows a footer with social links - for available icons see fontawesome.com/icons
   - {title: Mail, icon: envelope, url: "mailto:niklasbuschmann@users.noreply.github.com"}
